@@ -1,0 +1,145 @@
+@charset "utf-8";
+/*------------------------------Reset style Starts-------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline;}
+/* remember to define focus styles! */
+:focus { outline: 0;}body { line-height: 1; color: #1D1D1B; background: white; font-family:Arial, Helvetica, sans-serif; font-size:12px}
+ul { list-style: none;}
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: separate; border-spacing: 0;}
+caption, th, td { text-align: left; font-weight: normal;}
+blockquote:before, blockquote:after,q:before, q:after { content: "";}
+blockquote, q { quotes: "" "";}
+strong { font-weight:bold;}
+img { margin:0;}
+a:link {text-decoration: none; color:#333}
+/*------------------------------Reset style Ends-------------------------------*/
+iclear{ clear:both; width:100%;}
+body { font: normal 14px/16px "DekarRegular", Arial, Helvetica, sans-serif; background-color:#EDEDED}
+#wrapper { margin:0 auto; width:1024px;}
+.innerwrapper { width:962px; margin:0 auto;}
+
+#header { background: #DADADA; height:215px;  width: 100%; float:left; /*background:#f0e8d4 url(../images/headerbg.jpg) repeat-x bottom;*/ }
+.logo { /*background:url(../images/logobg.png) no-repeat*/; width:258px; height:105px; margin-left:26px; text-align:left; float:left;}
+.logo h1 { color:#1D71B8; font:normal 87px/50px "BebasNeueRegular", Arial, Helvetica, sans-serif; padding-top:50px; text-transform:uppercase; margin-left: 60px; text-shadow: -3px 0px 0px #C6C6C6;}
+.logo p  { color:#1D1D1B; font: normal 36px/35px "BebasNeueRegular"; margin-left: 61px; text-shadow: -2px 0px 0px #C6C6C6;}
+
+.nav { float:right; margin-top:180px; margin-right:57px}
+.nav ul li { text-transform:uppercase; display:inline; padding: 0 20px;}
+.nav ul li a { font-size: 20px; color:#1D1D1B;text-decoration:none;}
+
+#continertopbg { margin-top: 10px; height: 430px; background:url("fundo-container2.png") no-repeat; float:left; width:100%;}
+#continerbottombg {  /*background:url(../images/containerbgbottom.png) no-repeat bottom*/; float:left; width:100%;}
+#continer { float:left; width:100%; color:#1D1D1B; padding-top: 50px; padding-bottom:35px;}
+
+.block1 { float:left; margin-left:30px; margin-top: 10px;}
+.block2 { float:left; margin-left:55px;} 
+.block1 {  width:518px;}
+.block1 h1 { font:normal 36px/38px "BebasNeueRegular", Arial, Helvetica, sans-serif;margin-bottom:15px; }
+.block1 p {  font:normal 23px/29px "DekarRegular", Arial, Helvetica, sans-serif; }
+.block2 { width:390px; color:#FFF;}
+.block2 p {  font:normal 18px/25px "DekarRegular", Arial, Helvetica, sans-serif; color:#4d300f; margin-top:20px; margin-left: 10px; }
+.block2heder { /*background:url(../images/block2headbg.jpg) no-repeat*/; width:380px; height:47px; text-transform:uppercase; padding-left:10px; padding-top:17px;}
+.block2heder h1 {  font:normal 24px/20px "DekarRegular", Arial, Helvetica, sans-serif;margin-bottom:15px; }
+.block2heder span {  font:normal 18px/18px "DekarRegular", Arial, Helvetica, sans-serif; }
+.blue  { float:left; width:170px; margin-top:50px; background: #DADADA;}
+.green { float:left; width:170px; margin-top:50px; background: #DADADA;}
+.blue { font:normal 21px/21px "DekarRegular", Arial, Helvetica, sans-serif; padding-right: 10px; padding-top: 15px; padding-left: 15px; padding-bottom: 20px;}
+.green { padding-right: 15px; padding-top: 15px; padding-left: 10px; padding-bottom: 20px;}
+.greenheader, .blueheader {  text-transform:uppercase; font:normal 21px/21px "DekarRegular", Arial, Helvetica, sans-serif; border-bottom: solid #1D1D1B; padding-bottom:15px; }
+.greenheader a:visited, .blueheader a:visited {color: #1D1D1B;}
+.green p, .blue p{ color: #1D1D1B; font:normal 18px/22px "DekarRegular", Arial, Helvetica, sans-serif; margin-bottom:20px;}
+
+.summryblock {width:100%; height:156px; float:left; /*background: #ebe6db url(../images/bluebgsummry.jpg) repeat-x bottom*/; padding:30px 0;}
+.summryblock1, .summryblock2, .summryblock3 { color:#1D1D1B; float:left; height:130px; margin-top:20px;}
+.summryblock1 h1, .summryblock2 h1, .summryblock3 h1 { float: left; font:normal 30px/24px "BebasNeueRegular", Arial, Helvetica, sans-serif; margin-bottom:8px; }
+.red {color: #E31603; clear: right;}
+.summryblock1 h2, .summryblock2 h2, .summryblock3 h2 { font:normal 24px/24px "DekarRegular", Arial, Helvetica, sans-serif; margin-bottom:13px; } 
+.summryblock1 p, .summryblock2 p, .summryblock3 p { font:normal 16px/20px "DekarRegular", Arial, Helvetica, sans-serif; } 
+.summryblock1 { width:233px; padding: 0 37px 0 31px;}
+.summryblock2 { width:248px; padding: 0 34px 0 44px;}
+.summryblock3 { width:230px; padding: 0 0px 0 44px;}
+
+.blueContaner { background:#DADADA; width:100%; float:left; padding-top:25px; padding-bottom:20px; color:#1D1D1B;}
+.blueleftblock { float:left; width:228px; border-right: 1px;  border-style: none solid none none; border-width: 1px; padding-right:25px;}
+.text{  float:left; margin: 20px 0; width:228px;}
+.text h1 {font:normal 18px/15px "DekarRegular", Arial, Helvetica, sans-serif;margin-bottom:25px; color:#1D1D1B; }
+.text p {font:normal 15px/20px "DekarRegular", Arial, Helvetica, sans-serif;}
+
+.bluerightblock { float:left; width:670px; margin-left:30px; }
+.tabslidholder { float:left; width:670px; padding-bottom:15px;}
+.tagHolder { float:left; text-align:center;text-align:center; color:#FFF; width:105px; text-transform:uppercase; margin-bottom:30px; margin-right:20px;}
+.tagtext { /*background:url(../images/bgtag.jpg) repeat-x*/; height:18px; padding: 6px 20px; }
+.arrow{ /*background:url(../images/downarrow.jpg) no-repeat  top center*/; width:15px; height:13px; margin:0 auto;  }
+.slid { float:left;}
+.slidheaer { color:#3C3C3B; font:normal 36px/38px "BebasNeueRegular", Arial, Helvetica, sans-serif; float:left; padding:10px 0;}
+.slid p { font:normal 24px/31px "DekarRegular", Arial, Helvetica, sans-serif; margin-top:35px;  }
+.siderstrip { width:670px; float:left; height:35px; /*background:url(../images/mainbgstrip.jpg) repeat-x*/; margin-top:30px;}
+.btnleft { float:left; margin-left:11px;}
+.btnright { float:left; margin-left:10px;}
+
+.card{ float:left; width:660px; margin-top:10px;}
+.card h1  a{ color:#1D71B8; font:normal 22px/30px "DekarRegular", Arial, Helvetica, sans-serif;}
+.card h2 { color: #1D1D1B; font:normal 16px/25px "DekarRegular", Arial, Helvetica, sans-serif;}
+.cardlist {float:left; width:670px;margin-top:30px;}
+.cardlist ul li { display:inline; float:left; padding-right:21px; color:#1D1D1B; font-weight:bold;}
+.cardlist ul li p { color:#3a5c69; font-weight:normal; }
+.cardlist a:visited {color: #1D1D1B;} 
+#footer { clear:both; width:95%; margin: 30px auto 0;}
+
+span.small{
+	font-size:13px;
+	text-decoration: none; color:#1D1D1B;
+	margin-left: 25px;
+	padding-top: 10px;
+}
+button.css3button {
+	font-family: "BebasNeueRegular";
+	cursor:pointer;
+	font-size: 42px;
+	color: #ffffff;
+	padding: 5px 25px;
+	background: #1D71B8;
+	border-radius: 10px;
+	border: 0px solid #171717;
+	box-shadow: 5px 4px 0px #DADADA;
+	text-shadow: 0px 1px 0px #DADADA;
+	margin-bottom: 7px;
+}
+
+/* webfonts */
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('Fonts/BebasNeue-webfont.eot');
+    src: url('Fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/BebasNeue-webfont.woff') format('woff'),
+         url('Fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('Fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DekarLightRegular';
+    src: url('Fonts/dekar_light-webfont.eot');
+    src: url('Fonts/dekar_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/dekar_light-webfont.woff') format('woff'),
+         url('Fonts/dekar_light-webfont.ttf') format('truetype'),
+         url('Fonts/dekar_light-webfont.svg#DekarLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DekarRegular';
+    src: url('Fonts/dekar-webfont.eot');
+    src: url('Fonts/dekar-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/dekar-webfont.woff') format('woff'),
+         url('Fonts/dekar-webfont.ttf') format('truetype'),
+         url('Fonts/dekar-webfont.svg#DekarRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
