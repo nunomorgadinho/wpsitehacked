@@ -41,10 +41,9 @@ body { font: normal 14px/16px "DekarRegular", Arial, Helvetica, sans-serif; back
 .block2heder { /*background:url(../images/block2headbg.jpg) no-repeat*/; width:380px; height:47px; text-transform:uppercase; padding-left:10px; padding-top:17px;}
 .block2heder h1 {  font:normal 24px/20px "DekarRegular", Arial, Helvetica, sans-serif;margin-bottom:15px; }
 .block2heder span {  font:normal 18px/18px "DekarRegular", Arial, Helvetica, sans-serif; }
-.blue  { float:left; width:170px; margin-top:50px; background: #DADADA;}
-.green { float:left; width:170px; margin-top:50px; background: #DADADA;}
-.blue { font:normal 21px/21px "DekarRegular", Arial, Helvetica, sans-serif; padding-right: 10px; padding-top: 15px; padding-left: 15px; padding-bottom: 20px;}
-.green { padding-right: 15px; padding-top: 15px; padding-left: 10px; padding-bottom: 20px;}
+.blue  { float:left; width:170px; margin-top:50px; background: #DADADA;font:normal 21px/21px "DekarRegular", Arial, Helvetica, sans-serif; 
+padding-right: 10px; padding-top: 15px; padding-left: 15px; padding-bottom: 20px;}
+.green { float:left; width:170px; margin-top:50px; background: #DADADA; padding-right: 15px; padding-top: 15px; padding-left: 10px; padding-bottom: 20px;}
 .greenheader, .blueheader {  text-transform:uppercase; font:normal 21px/21px "DekarRegular", Arial, Helvetica, sans-serif; border-bottom: solid #1D1D1B; padding-bottom:15px; }
 .greenheader a:visited, .blueheader a:visited {color: #1D1D1B;}
 .green p, .blue p{ color: #1D1D1B; font:normal 18px/22px "DekarRegular", Arial, Helvetica, sans-serif; margin-bottom:20px;}
@@ -103,7 +102,7 @@ button.css3button {
 	border: 0px solid #171717;
 	box-shadow: 5px 4px 0px #DADADA;
 	text-shadow: 0px 1px 0px #DADADA;
-	margin-bottom: 7px;
+	margin-bottom: 10px;
 }
 
 /* webfonts */
