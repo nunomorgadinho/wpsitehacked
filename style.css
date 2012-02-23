@@ -26,6 +26,7 @@ body { font: normal 14px/16px "DekarRegular", Arial, Helvetica, sans-serif; back
 .nav { float:right; margin-top:180px; margin-right:57px}
 .nav ul li { text-transform:uppercase; display:inline; padding: 0 20px;}
 .nav ul li a { font-size: 20px; color:#1D1D1B;text-decoration:none;}
+.nav ul li a:hover { color: #706F6F;}
 
 #continertopbg { margin-top: 10px; height: 430px; background:url("fundo-container2.png") no-repeat; float:left; width:100%;}
 #continerbottombg {  /*background:url(../images/containerbgbottom.png) no-repeat bottom*/; float:left; width:100%;}
@@ -46,6 +47,7 @@ padding-right: 10px; padding-top: 15px; padding-left: 15px; padding-bottom: 20px
 .green { float:left; width:170px; margin-top:50px; background: #DADADA; padding-right: 15px; padding-top: 15px; padding-left: 10px; padding-bottom: 20px;}
 .greenheader, .blueheader {  text-transform:uppercase; font:normal 21px/21px "DekarRegular", Arial, Helvetica, sans-serif; border-bottom: solid #1D1D1B; padding-bottom:15px; }
 .greenheader a:visited, .blueheader a:visited {color: #1D1D1B;}
+.greenheader a:hover, .blueheader a:hover {color: #706F6F;}
 .green p, .blue p{ color: #1D1D1B; font:normal 18px/22px "DekarRegular", Arial, Helvetica, sans-serif; margin-bottom:20px;}
 
 .summryblock {width:100%; height:156px; float:left; /*background: #ebe6db url(../images/bluebgsummry.jpg) repeat-x bottom*/; padding:30px 0;}
@@ -57,12 +59,15 @@ padding-right: 10px; padding-top: 15px; padding-left: 15px; padding-bottom: 20px
 .summryblock1 { width:233px; padding: 0 37px 0 31px;}
 .summryblock2 { width:248px; padding: 0 34px 0 44px;}
 .summryblock3 { width:230px; padding: 0 0px 0 44px;}
+.summryblock3 a:visited {color: #1D1D1B;}
+.summryblock3 a:hover {color: #706F6F;}
 
 .blueContaner { background:#DADADA; width:100%; float:left; padding-top:25px; padding-bottom:20px; color:#1D1D1B;}
 .blueleftblock { float:left; width:228px; border-right: 1px;  border-style: none solid none none; border-width: 1px; padding-right:25px;}
 .text{  float:left; margin: 20px 0; width:228px;}
 .text h1 {font:normal 18px/15px "DekarRegular", Arial, Helvetica, sans-serif;margin-bottom:25px; color:#1D1D1B; }
 .text p {font:normal 15px/20px "DekarRegular", Arial, Helvetica, sans-serif;}
+.blueleftblock a:visited {color: #1D1D1B;}
 
 .bluerightblock { float:left; width:670px; margin-left:30px; }
 .tabslidholder { float:left; width:670px; padding-bottom:15px;}
@@ -72,12 +77,14 @@ padding-right: 10px; padding-top: 15px; padding-left: 15px; padding-bottom: 20px
 .slid { float:left;}
 .slidheaer { color:#3C3C3B; font:normal 36px/38px "BebasNeueRegular", Arial, Helvetica, sans-serif; float:left; padding:10px 0;}
 .slid p { font:normal 24px/31px "DekarRegular", Arial, Helvetica, sans-serif; margin-top:35px;  }
-.siderstrip { width:670px; float:left; height:35px; /*background:url(../images/mainbgstrip.jpg) repeat-x*/; margin-top:30px;}
+.siderstrip { width:670px; float:left; height:35px; margin-top:30px;}
 .btnleft { float:left; margin-left:11px;}
 .btnright { float:left; margin-left:10px;}
 
 .card{ float:left; width:660px; margin-top:10px;}
 .card h1  a{ color:#1D71B8; font:normal 22px/30px "DekarRegular", Arial, Helvetica, sans-serif;}
+.card h1 a:visited{color:#1D71B8;}
+.card h1 a:hover{color:#36A9E1;}
 .card h2 { color: #1D1D1B; font:normal 16px/25px "DekarRegular", Arial, Helvetica, sans-serif;}
 .cardlist {float:left; width:670px;margin-top:30px;}
 .cardlist ul li { display:inline; float:left; padding-right:21px; color:#1D1D1B; font-weight:bold;}
@@ -104,6 +111,11 @@ button.css3button {
 	text-shadow: 0px 1px 0px #DADADA;
 	margin-bottom: 10px;
 }
+
+
+
+
+
 
 /* webfonts */
 
