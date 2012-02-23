@@ -65,8 +65,9 @@ padding-right: 10px; padding-top: 15px; padding-left: 15px; padding-bottom: 20px
 .blueContaner { background:#DADADA; width:100%; float:left; padding-top:25px; padding-bottom:20px; color:#1D1D1B;}
 .blueleftblock { float:left; width:228px; border-right: 1px;  border-style: none solid none none; border-width: 1px; padding-right:25px;}
 .text{  float:left; margin: 20px 0; width:228px;}
-.text h1 {font:normal 18px/15px "DekarRegular", Arial, Helvetica, sans-serif;margin-bottom:25px; color:#1D1D1B; }
+.text h1 {font:normal 18px/18px "DekarRegular", Arial, Helvetica, sans-serif;margin-bottom:25px; color:#1D1D1B; }
 .text p {font:normal 15px/20px "DekarRegular", Arial, Helvetica, sans-serif;}
+.text p a:hover {text-decoration: underline;}
 .blueleftblock a:visited {color: #1D1D1B;}
 
 .bluerightblock { float:left; width:670px; margin-left:30px; }
@@ -90,6 +91,7 @@ padding-right: 10px; padding-top: 15px; padding-left: 15px; padding-bottom: 20px
 .cardlist ul li { display:inline; float:left; padding-right:21px; color:#1D1D1B; font-weight:bold;}
 .cardlist ul li p { color:#3a5c69; font-weight:normal; }
 .cardlist a:visited {color: #1D1D1B;} 
+.cardlist a:hover {color: #706F6F}
 #footer { clear:both; width:95%; margin: 30px auto 0;}
 
 span.small{
@@ -114,7 +116,7 @@ button.css3button {
 
 a:hover button.css3button {
     color: #F6F6F6;
-    background: #1D99CC;
+    background: #333399;
     box-shadow: none;
     position: relative;
     top: 2px;
