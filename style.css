@@ -11,7 +11,7 @@ blockquote:before, blockquote:after,q:before, q:after { content: "";}
 blockquote, q { quotes: "" "";}
 strong { font-weight:bold;}
 img { margin:0;}
-a:link {text-decoration: none; color:#333}
+a:link { color:#333}
 /*------------------------------Reset style Ends-------------------------------*/
 iclear{ clear:both; width:100%;}
 body { font: normal 14px/16px "DekarRegular", Arial, Helvetica, sans-serif; background-color:#EDEDED}
